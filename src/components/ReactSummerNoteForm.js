@@ -6,8 +6,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import ReactSummernote from 'react-summernote';
 //import 'react-summernote/dist/react-summernote.css';
-//import './css/summernote.css';
-//import 'react-summernote/lang/summernote-ru-RU';
+import './css/summernote.css';
+import 'react-summernote/lang/summernote-ru-RU';
 
 
 function ReactSummerNoteForm(){

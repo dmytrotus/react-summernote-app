@@ -4,7 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.16/dist/summernote.min.css" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <!-- Imported in index.js -->
@@ -29,7 +28,9 @@
 
 <script>
       $(document).ready(function() {
-          $('#summernote').summernote();
+          $('#summernote').summernote({
+            lang: 'ru-RU',
+            });
       });
    </script>
 

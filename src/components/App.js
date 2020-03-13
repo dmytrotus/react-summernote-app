@@ -10,7 +10,8 @@ function App(){
 
 	return(
 		<Fragment>
-			<div className="container">
+		<section className="bg-light p-3">
+			<div className="container bg-white p-3">
 				<h1 className="title text-center">
 					This is React SummerNote App
 				</h1>
@@ -18,6 +19,7 @@ function App(){
 			<ReactSummerNoteForm />
 			<TextViewArea />
 			</div>
+		</section>
 		</Fragment>
 		)
 }
